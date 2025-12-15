@@ -5,7 +5,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui
 
-function inizialeNomi(names){
+// function inizialeNomi(names){
+//     let inizialiNomi = [];
+
+//     for (let index = 0; index < names.length; index++) {
+        
+//         inizialiNomi.push(names[index].charAt(0));
+//     }
+
+//     return inizialiNomi;
+// }
+
+const inizialeNomi = (names) => {
     let inizialiNomi = [];
 
     for (let index = 0; index < names.length; index++) {
