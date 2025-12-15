@@ -3,11 +3,21 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
-// Dichiara la funzione qui.
+// Dichiara la funzione qui
 
+function inizialeNomi(names){
+    let inizialiNomi = [];
+
+    for (let index = 0; index < names.length; index++) {
+        
+        inizialiNomi.push(names[index].charAt(0));
+    }
+
+    return inizialiNomi;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(inizialeNomi(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
