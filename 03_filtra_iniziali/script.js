@@ -20,7 +20,7 @@ const selezionaSoloLettera = (array , lettera) => {
     let arrayLettera = [];
 
     for (let index = 0; index < array.length; index++) {
-            if(array[index].includes(lettera) || array[index].includes(lettera.toUpperCase())){
+            if(array[index][0] === (lettera) || array[index][0] === lettera.toUpperCase()){
                 arrayLettera.push(array[index]);
             } 
         }
